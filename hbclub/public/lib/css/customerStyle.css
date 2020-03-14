@@ -13,6 +13,10 @@ a{
 }
 .btn{
     outline: none;
+    background: #9d0105 !important;
+}
+.section {
+    padding: 30px 0 !important;
 }
 /*===========navbar css==========*/
 .navbar-brand{
@@ -21,20 +25,20 @@ a{
     font-family: 'Roboto regular';
 }
 .navbar-brand .orange{
-    color:#f44336;
+    color:#9d0105;
 }
 .navbar .navbar-nav .nav-item .nav-link{
     font-weight:bold;
     font-size: .8em !important;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover{
-    color:#f44336;
+    color:#9d0105;
     cursor:pointer;
     font-weight:bold;
 }
 /*==========page-header css==========*/
 .page-header .orange{
-    color: #f44336;
+    color: #9d0105;
 }
 .introWelcome{
     font-size: 1.5rem;
@@ -46,7 +50,7 @@ a{
 .intro-btn{
     border-radius: 3rem !important;
     font-size: 2em;
-    
+
 }
 
 .intro-btn:hover{
@@ -76,7 +80,7 @@ a{
     color: #000;
 }
 .icon:hover{
-    color: #f44336;
+    color: #9d0105;
     cursor: pointer;
 }
 .info p {
@@ -85,10 +89,14 @@ a{
     line-height: 1.6em;
 }
 .btn-more{
-    background: #ea4136 !important;
+    background: #9d0105 !important;
+}
+/* features */
+.features{
+  padding-bottom: 80px;
 }
 .features .orange{
-    color: #f44336 !important;
+    color: e32950 !important;
 }
 /*=============step-process=====*/
 
@@ -99,7 +107,7 @@ a{
     margin-top: 20px;
 }
 .fa-check-square{
-    color: #f44336;
+    color: #9d0105;
 }
 .vision, .comitment{
     font-size: 1.2rem;
@@ -112,11 +120,12 @@ a{
 }
 /*======about us css========*/
 a.richfield{
-    color:#f44336;
+    color:#9d0105;
 }
 .intro{
     font-size: 1.3rem;
     line-height: 1.7em;
+    padding-bottom: 20px;
 }
 /*====================contact=====================*/
 .contact
@@ -131,25 +140,30 @@ a.richfield{
 {
     margin-top:40px;
 }
-.section-bg 
+.section-bg
 {
 	background:#fff;
 	padding:25px 15px;
 	margin-bottom:15px;
 }
-/**/
+/*footer*/
+footer .copyright
+{
+  padding: 15px 0;
+  font-size: 1rem !important;
+}
 /*=============== Media Queries ====================*/
 
-/* 
+/*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
 
 @media (min-width: 1281px) {
-  
+
     body{
         max-width: 100%;
-        background: #ea4136;
+        background: #9d0105;
         font-size: 1.3rem;
     }
     .introMessage{
@@ -161,16 +175,16 @@ a.richfield{
     .copyright a{
         color: #fff;
     }
-    
+
   }
-  
-  /* 
+
+  /*
     ##Device = Laptops, Desktops
     ##Screen = B/w 1025px to 1280px
   */
-  
+
   @media (min-width: 1025px) and (max-width: 1280px) {
-    
+
     body{
         max-width: 100%;
         background: #ea4136;
@@ -185,32 +199,32 @@ a.richfield{
     .copyright a{
         color: #fff;
     }
-    
+
   }
-  
-  /* 
+
+  /*
     ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
   */
-  
+
   @media (min-width: 768px) and (max-width: 1024px) {
-    
+
    body{
        width: 100%;
    }
    .navbar.navbar-transparent{
        background: #000 !important;
    }
-    
+
   }
-  
-  /* 
+
+  /*
     ##Device = Tablets, Ipads (landscape)
     ##Screen = B/w 768px to 1024px
   */
-  
+
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
+
     body{
         width: 100%;
     }
@@ -229,16 +243,16 @@ a.richfield{
         font-size: 1rem;
         line-height: 1.8;
     }
-    
+
   }
-  
-  /* 
+
+  /*
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-  
+
   @media (min-width: 481px) and (max-width: 767px) {
-    
+
     .navbar.navbar-transparent{
         background: #000 !important;
     }
@@ -277,16 +291,16 @@ a.richfield{
     .process-list{
         font-size: 1.4rem;
     }
-    
+
   }
-  
-  /* 
+
+  /*
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-  
+
   @media (min-width: 320px) and (max-width: 480px) {
-    
+
     .navbar.navbar-transparent{
         background: #000 !important;
     }
@@ -325,5 +339,5 @@ a.richfield{
     .process-list{
         font-size: 1.4rem;
     }
-    
+
   }
