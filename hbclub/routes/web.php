@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'GymController@index')->name('home');
+Route::get('/about', 'GymController@about')->name('about');
+Route::get('/bookingTrainer', 'GymController@bookingTrainer')->name('bookingTrainer');
+
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });

@@ -13,20 +13,20 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="index.php" class=" nav-link">
+            <a href="{{ url('/')}}" class=" nav-link">
               Home
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about-us.php">
+            <a class="nav-link" href="{{ url('/about')}}">
                About The Gym
             </a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="services.php">Services</a>
+              <a class="nav-link" href="{{ url('/bookingTrainer')}}">Book A Trainer</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="contact-us.php">Contact</a>
+              <a class="nav-link" href="">Contact</a>
           </li>
         </ul>
       </div>

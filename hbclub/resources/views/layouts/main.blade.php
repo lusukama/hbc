@@ -27,6 +27,8 @@
   <!-- custom css here -->
   <link rel="stylesheet" href="{{ asset('public/lib/css/customerStyle.css')}}">
   <link rel="stylesheet" href="{{ asset('public/lib/css/custom-font-face.css')}}" />
+  <link rel="stylesheet" href="{{ asset('public/lib/css/owl.carousel.css')}}">
+  <link rel="stylesheet" href="{{ asset('public/lib/css/prettyPhoto.css')}}">
 </head>
 
 <body class="landing-page sidebar-collapse">
@@ -39,6 +41,14 @@
   <script src="{{ asset('public/lib/js/popper.min.js')}}"></script>
   <script src="{{ asset('public/lib/js/bootstrap-material-design.min.js')}}"></script>
   <script src="{{ asset('public/lib/js/plugin/material-kit.js')}}"></script>
+  <script src="{{ asset('public/lib/js/plugin/moment.min.js')}}"></script>
+  <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+  <script src="{{ asset('public/lib/js/plugin/bootstrap-datetimepicker.js')}}"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="{{ asset('public/lib/js/plugin/nouislider.min.js')}}"></script>
+  <!--  Google Maps Plugin    -->
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>-->
+  <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
 </body>
 
 </html>
