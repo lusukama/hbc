@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-<div class="page-header header-filter" data-parallax="true" style="background-image: url('{{ asset('public/lib/images/boxing-bg.jpg')}}')">
+<div class="page-header header-filter" data-parallax="true" style="background-image: url('{{ asset('public/lib/images/bg-trainer.jpg')}}')">
   <div class="container">
     <div class="row">
       <div class="col-md-9">
